@@ -18,6 +18,8 @@ These codes enable robust phase-stability predictions, corrosion phase diagrams,
 
 ## Latest news
 
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7426628448091160576?collapsed=1" height="626" width="504" frameborder="0" allowfullscreen="" title="Post incorporato"></iframe>
+
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7389266382498205696?collapsed=1" height="599" width="504" frameborder="0" allowfullscreen="" title="Post incorporato"></iframe>
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7175962961881034752?collapsed=1" height="506" width="504" frameborder="0" allowfullscreen="" title="Post incorporato"></iframe>
