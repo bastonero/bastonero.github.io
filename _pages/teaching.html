@@ -1,0 +1,15 @@
+---
+layout: archive
+title: "Teaching"
+permalink: /teaching/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p>Lectures, teaching assistantships, and thesis supervision. For lectures given at
+schools and workshops, see the <a href="{{ base_path }}/outreach/">outreach</a> page.</p>
+
+{% for post in site.teaching reversed %}
+  {% include archive-single.html %}
+{% endfor %}

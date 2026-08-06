@@ -3,10 +3,28 @@ layout: archive
 title: "Software"
 permalink: /software/
 author_profile: true
+software_roles:
+  main: "Main contributor"
+  maintainer: "Maintainer and contributor"
+  contributor: "Contributor"
 ---
 
 {% include base_path %}
 
-{% for post in site.software reversed %}
-  {% include archive-single.html %}
+<p>All my scientific software is open source and built on top of the
+<a href="https://www.aiida.net/">AiiDA</a> infrastructure, so that every simulation is automated,
+reproducible, and provenance-tracked by construction.</p>
+
+{% for role in page.software_roles %}
+  {% assign title_shown = false %}
+  {% for post in site.software %}
+    {% if post.role != role[0] %}
+      {% continue %}
+    {% endif %}
+    {% unless title_shown %}
+      <h2>{{ role[1] }}</h2><hr />
+      {% assign title_shown = true %}
+    {% endunless %}
+    {% include archive-single.html %}
+  {% endfor %}
 {% endfor %}

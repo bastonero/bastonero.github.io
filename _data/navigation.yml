@@ -11,14 +11,20 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Outreach"
-    url: /outreach/    
-    
   - title: "Software"
     url: /software/
 
+  - title: "Talks"
+    url: /talks/
+
+  - title: "Teaching"
+    url: /teaching/
+
+  - title: "Outreach"
+    url: /outreach/
+
   - title: "CV"
     url: /cv/
-    
+
   # - title: "CV"
   #   url: /cv-json/

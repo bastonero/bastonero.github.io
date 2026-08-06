@@ -12,11 +12,11 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Lorenzo Bastonero"
 title_separator          : "-"
 name                     : &name "Lorenzo Bastonero"
-description              : &description "Lorenzo Bastonero's academic software"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Personal website of Lorenzo Bastonero, computational materials scientist working on first-principles simulations, vibrational spectroscopies, machine-learning interatomic potentials, and automated high-throughput workflows."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://bastonero.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "bastonero/bastonero.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -26,14 +26,15 @@ author:
   avatar           : "profile.jpg"
   name             : "Lorenzo Bastonero"
   pronouns         : "he/him"
-  bio              : "PhD Researcher at University of Bremen"
-  location         : "Bremen, Germany"
-  employer         : "University of Bremen"
+  bio              : "Postdoctoral researcher in computational materials science"
+  location         : "Cambridge, MA, USA"
+  employer         : "Harvard University"
   uri              : # URL
-  email            : "lbastone@uni-bremen.de" 
+  email            : "lorenzo_bastonero@seas.harvard.edu"
 
   # Academic websites
-  academia         : https://www.hmi.uni-bremen.de/Bastonero/bastonero_home.html
+  academia         : https://seas.harvard.edu/materials-science-mechanical-engineering/people?search=Bastonero
+  academia_label   : "Harvard SEAS"   # label shown next to the link above (defaults to "Academia")
   arxiv            : https://arxiv.org/search/cond-mat?searchtype=author&query=Bastonero,+L
   googlescholar    : https://scholar.google.com/citations?user=CI9SNjcAAAAJ&hl=it
   inspire-hep      : # URL
@@ -42,7 +43,7 @@ author:
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # URL
-  researchgate     : https://www.researchgate.net/profile/Lorenzo-Bastonero/publications?editMode=1&sorting=recentlyAdded
+  researchgate     : https://www.researchgate.net/profile/Lorenzo-Bastonero
   scopus           : # URL
   zotero           : # URL
 
@@ -84,14 +85,15 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
+  preprints:
+    title: 'Preprints and Submitted Manuscripts'
   conferences:
-    title: 'Conference Papers'
+    title: 'Conference Proceedings'
 
 # Site Settings
+cv_pdf                   :  # filename of a CV PDF placed in /files/ (e.g. "cv.pdf"); when set, a download button is shown on the CV pages
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -224,6 +226,12 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
+  teaching:
+    output: true
+    permalink: /:collection/:path/
   outreach:
     output: true
     permalink: /:collection/:path/
@@ -252,15 +260,30 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
   # _outreach
   - scope:
       path: ""
       type: outreach
     values:
-      layout: single
+      layout: talk
       author_profile: true
       share: true
-      comments: true
   # _publications
   - scope:
       path: ""

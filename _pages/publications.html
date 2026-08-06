@@ -5,11 +5,14 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
+
+<div class="wordwrap">
+  You can also find my articles on
+  {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}">Google Scholar</a>,{% endif %}
+  {% if site.author.orcid %}<a href="{{ site.author.orcid }}">ORCID</a>,{% endif %}
+  {% if site.author.arxiv %}and <a href="{{ site.author.arxiv }}">arXiv</a>.{% endif %}
+</div>
 
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
@@ -31,6 +34,3 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
-
-

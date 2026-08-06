@@ -1,152 +1,449 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Lorenzo Bastonero",
+    "label": "Postdoctoral researcher in computational materials science",
+    "email": "lorenzo_bastonero@seas.harvard.edu",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://bastonero.github.io",
+    "summary": "Postdoctoral researcher at Harvard University working on first-principles and machine-learning atomistic simulations. My research covers vibrational spectroscopies, Hubbard-corrected electronic structure, machine-learning interatomic potentials, and the thermodynamics of green metal extraction, all built on automated and reproducible high-throughput workflows.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Cambridge",
       "countryCode": "US",
-      "region": ""
+      "region": "MA"
     },
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "username": "Lorenzo Bastonero",
+        "url": "https://scholar.google.com/citations?user=CI9SNjcAAAAJ&hl=it"
       },
       {
         "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "username": "0000-0001-9374-1876",
+        "url": "https://orcid.org/0000-0001-9374-1876"
       },
       {
         "network": "GitHub",
         "username": "bastonero",
         "url": "https://github.com/bastonero"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "lorenzo-bastonero",
+        "url": "https://www.linkedin.com/in/lorenzo-bastonero-46ba70173"
       }
     ]
   },
-  "work": [],
-  "education": [
+  "work": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "company": "Harvard University",
+      "position": "Postdoctoral researcher",
+      "startDate": "2026-07",
+      "endDate": null,
+      "summary": "Advisor: Prof. Dr. Boris Kozinsky. Cambridge (MA, USA).",
+      "highlights": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "company": "University of Bremen",
+      "position": "Postdoctoral researcher",
+      "startDate": "2026-02",
+      "endDate": "2026-06",
+      "summary": "Advisor: Prof. Dr. Nicola Marzari. Bremen (Germany).",
+      "highlights": []
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "education": [
+    {
+      "institution": "University of Bremen",
+      "area": "Ph.D. in Physics",
+      "studyType": "Doctorate",
+      "startDate": "2021-01",
+      "endDate": "2026",
+      "gpa": "summa cum laude",
+      "courses": [
+        "Thesis: Automated first-principles highways for Mars exploration",
+        "Supervisor: Prof. Dr. Nicola Marzari"
+      ]
+    },
+    {
+      "institution": "University of Turin",
+      "area": "M.Sc. in Physics",
+      "studyType": "Master",
+      "startDate": "2018-09",
+      "endDate": "2020",
+      "gpa": "110/110 cum laude and Honorable Mention",
+      "courses": [
+        "Thesis: Prediction of the Optoelectronic Properties of 2D Heterostructures Via First Principles Simulations"
+      ]
+    },
+    {
+      "institution": "University of Turin",
+      "area": "B.Sc. in Physics",
+      "studyType": "Bachelor",
+      "startDate": "2015-09",
+      "endDate": "2018",
+      "gpa": "110/110",
+      "courses": [
+        "Thesis: Double slit problem for surface waves: Lagrangian transport of particles"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming languages",
+      "level": "",
+      "keywords": [
+        "Python",
+        "LaTeX",
+        "C/C++"
+      ]
+    },
+    {
+      "name": "Scientific software",
+      "level": "",
+      "keywords": [
+        "AiiDA",
+        "Quantum ESPRESSO",
+        "phonopy",
+        "python-sscha",
+        "ASE",
+        "Pymatgen",
+        "NequIP/Allegro",
+        "LAMMPS",
+        "AiiDAlab",
+        "Yambo",
+        "VESTA"
+      ]
+    },
+    {
+      "name": "Development",
+      "level": "",
+      "keywords": [
+        "git",
+        "GitHub",
+        "VSCode",
+        "Docker",
+        "cmake",
+        "spack"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Italian",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "German",
+      "fluency": "Basic"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Research interests",
+      "keywords": [
+        "First-principles simulations",
+        "Vibrational spectroscopies",
+        "Machine-learning interatomic potentials",
+        "Hubbard functionals",
+        "High-throughput and automated workflows",
+        "In-situ resource utilization"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "R. Stephen Berry Early-Career Fellowship",
+      "date": "2026",
+      "awarder": "Telluride Science",
+      "summary": "Telluride Science Scholarship"
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Resonant Raman spectroscopies beyond density-functional theory",
+      "publisher": "arXiv:2608.00269",
+      "releaseDate": "2026-08-01",
+      "website": "https://doi.org/10.48550/arXiv.2608.00269",
+      "summary": "A. Poliukhin, C. B. Aubry, L. Bastonero, and N. Marzari, Resonant Raman spectroscopies beyond density-functional theory, arXiv:2608.00269 (2026)."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Predicting challenging phase transitions with Bayesian active learning",
+      "publisher": "arXiv:2604.25756",
+      "releaseDate": "2026-04-01",
+      "website": "https://doi.org/10.48550/arXiv.2604.25756",
+      "summary": "L. Bastonero, G. Joalland, C. Cignarella, L. Monacelli, and N. Marzari, Predicting challenging phase transitions with Bayesian active learning, under review in PRX Energy, arXiv:2604.25756 (2026)."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Making atomistic materials calculations accessible with the AiiDAlab Quantum ESPRESSO app",
+      "publisher": "npj Computational Materials",
+      "releaseDate": "2026-03-01",
+      "website": "https://www.nature.com/articles/s41524-025-01936-4",
+      "summary": "X. Wang, E. Bainglass, M. Bonacci, et al. (incl. L. Bastonero), Making atomistic materials calculations accessible with the AiiDAlab Quantum ESPRESSO app, npj Comput. Mater. 12, 72 (2026)."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "AI4X Roadmap: Artificial Intelligence for the advancement of scientific pursuit and its future directions",
+      "publisher": "arXiv:2511.20976",
+      "releaseDate": "2025-11-26",
+      "website": "https://arxiv.org/abs/2511.20976",
+      "summary": "S. G. Dale, N. Kazeev, A. J. A. Price, et al. (incl. L. Bastonero and N. Marzari), AI4X Roadmap: Artificial Intelligence for the advancement of scientific pursuit and its future directions, arXiv:2511.20976 (2025)."
+    },
+    {
+      "name": "Extreme anharmonicity and thermal contraction of one-dimensional wires",
+      "publisher": "Nano Letters",
+      "releaseDate": "2025-11-01",
+      "website": "https://pubs.acs.org/doi/full/10.1021/acs.nanolett.5c04282",
+      "summary": "C. Cignarella, L. Bastonero, L. Monacelli, and N. Marzari, Extreme anharmonicity and thermal contraction of one-dimensional wires, Nano Lett. 25, 44 (2025)."
+    },
+    {
+      "name": "Assessing quality and purity of MoS2 nanosheets by diffuse reflectance IR spectroscopy",
+      "publisher": "2D Materials",
+      "releaseDate": "2025-10-01",
+      "website": "https://iopscience.iop.org/article/10.1088/2053-1583/ae1148/meta",
+      "summary": "T. Nowack, L. Bastonero, T. Knickrehm, T. Carey, J. N. Coleman, K. R. Synnatschke, N. Marzari, and C. Backes, Assessing quality and purity of MoS2 nanosheets by diffuse reflectance IR spectroscopy, 2D Mater. 12, 4 (2025)."
+    },
+    {
+      "name": "BaZrS3 Lights Up: The Interplay of Electrons, Photons, and Phonons in Strongly Luminescent Single Crystals",
+      "publisher": "Advanced Optical Materials",
+      "releaseDate": "2025-09-01",
+      "website": "https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adom.202500915",
+      "summary": "R. S. Nielsen, A. L. Alvarez, Y. Tomm, G. Gurieva, A. Ortega-Guerrero, J. Breternitz, L. Bastonero, N. Marzari, C. A. Pignedoli, S. Schorr, and M. Dimitrievska, BaZrS3 Lights Up: The Interplay of Electrons, Photons, and Phonons in Strongly Luminescent Single Crystals, Adv. Opt. Mater. 13, 26 (2025)."
+    },
+    {
+      "name": "Charting the landscape of Bardeen-Cooper-Schrieffer superconductors in experimentally known compounds",
+      "publisher": "PRX Energy",
+      "releaseDate": "2025-07-01",
+      "website": "https://journals.aps.org/prxenergy/abstract/10.1103/sb28-fjc9",
+      "summary": "M. Bercx, S. Ponce, Y. Zhang, G. Trezza, A. G. Ghezeljehmeidan, L. Bastonero, J. Qiao, F. O. von Rohr, G. Pizzi, E. Chiavazzo, and N. Marzari, Charting the landscape of Bardeen-Cooper-Schrieffer superconductors in experimentally known compounds, PRX Energy 4, 033012 (2025)."
+    },
+    {
+      "name": "MaX - Materials design at the exascale - a EuroHPC Centre of Excellence: Recent selected results",
+      "publisher": "Proceedings of the 22nd ACM International Conference on Computing Frontiers",
+      "releaseDate": "2025-05-15",
+      "website": "https://dl.acm.org/doi/abs/10.1145/3706594.3727577",
+      "summary": "L. Riha, A. Boehm, O. Vysocky, et al. (incl. L. Bastonero and N. Marzari), MaX - Materials design at the exascale - a EuroHPC Centre of Excellence: Recent selected results, Proceedings of the 22nd ACM International Conference on Computing Frontiers: Workshops and Special Sessions, 150-156 (2025)."
+    },
+    {
+      "name": "Ab initio functional-independent calculations of the clamped Pockels tensor of tetragonal barium titanate",
+      "publisher": "Physical Review B",
+      "releaseDate": "2025-05-01",
+      "website": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.111.184306",
+      "summary": "V. de Mestral, L. Bastonero, M. Kotiuga, M. Mladenovic, N. Marzari, and M. Luisier, Ab initio functional-independent calculations of the clamped Pockels tensor of tetragonal barium titanate, Phys. Rev. B 111, 184306 (2025)."
+    },
+    {
+      "name": "First-principles Hubbard parameters with automated and reproducible workflows",
+      "publisher": "npj Computational Materials",
+      "releaseDate": "2025-03-03",
+      "website": "https://www.nature.com/articles/s41524-025-01685-4",
+      "summary": "Bastonero, L., Malica, C., Macke, E. et al. First-principles Hubbard parameters with automated and reproducible workflows. npj Comput. Mater. 11, 183 (2025)."
+    },
+    {
+      "name": "A photodetector based on the non-centrosymmetric 2D pseudo-binary chalcogenide MnIn2Se4",
+      "publisher": "Journal of Materials Chemistry C",
+      "releaseDate": "2025-02-01",
+      "website": "https://pubs.rsc.org/en/content/articlehtml/2025/tc/d4tc04380d",
+      "summary": "M. Serra, N. Antonatos, L. Lajaunie, et al. (incl. L. Bastonero and N. Marzari), A photodetector based on the non-centrosymmetric 2D pseudo-binary chalcogenide MnIn2Se4, J. Mater. Chem. C 13, 5356-5369 (2025)."
+    },
+    {
+      "name": "Synthesis, structural and spectroscopic characterization of defect-rich forsterite as a representative phase of Martian regolith",
+      "publisher": "IUCrJ",
+      "releaseDate": "2024-11-01",
+      "website": "https://journals.iucr.org/m/issues/2024/06/00/lt5071/index.html",
+      "summary": "M. I. J. Hanafi, L. Bastonero, M. M. Murshed, L. Robben, W. Dononelli, A. Kirsch, N. Marzari, and T. M. Gesing, Synthesis, structural and spectroscopic characterization of defect-rich forsterite as a representative phase of Martian regolith, IUCrJ 11, 6 (2024)."
+    },
+    {
+      "name": "First-principles characterization of thermal conductivity in LaPO4-based alloys",
+      "publisher": "Physical Review Applied",
+      "releaseDate": "2024-08-01",
+      "website": "https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.22.024064",
+      "summary": "A. Pazhedath, L. Bastonero, N. Marzari, and M. Simoncelli, First-principles characterization of thermal conductivity in LaPO4-based alloys, Phys. Rev. Applied 22, 024064 (2024)."
+    },
+    {
+      "name": "Automated all-functional infrared and Raman spectra",
+      "publisher": "npj Computational Materials",
+      "releaseDate": "2024-03-15",
+      "website": "https://www.nature.com/articles/s41524-024-01236-3",
+      "summary": "Bastonero, L., Marzari, N. Automated all-functionals infrared and Raman spectra. npj Comput. Mater. 10, 55 (2024)."
+    },
+    {
+      "name": "Understanding the role of Hubbard corrections in the rhombohedral phase of BaTiO3",
+      "publisher": "Physical Review B",
+      "releaseDate": "2023-12-27",
+      "website": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.108.235171",
+      "summary": "G. Gebreyesus, L. Bastonero, M. Kotiuga, N. Marzari, and I. Timrov, Understanding the role of Hubbard corrections in the rhombohedral phase of BaTiO3, Phys. Rev. B 108, 235171 (2023)"
+    },
+    {
+      "name": "Boosted Solar Light Absorbance in PdS2/PtS2 Vertical Heterostructures for Ultrathin Photovoltaic Devices",
+      "publisher": "ACS Applied Materials & Interfaces",
+      "releaseDate": "2021-09-01",
+      "website": "https://pubs.acs.org/doi/full/10.1021/acsami.1c11245",
+      "summary": "Bastonero, L., Cicero, G., Palummo, M. and Re Fiorentin, M. ACS Applied Materials & Interfaces 13 (36), 43615-43621 (2021)"
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
+      "name": "Sample what you need: efficient active-learning strategies for accurate machine-learned potentials",
+      "event": "Multi-Scale Condensed Phase Simulations: Methods and Applications",
+      "date": "2026-07-13",
+      "location": "Telluride, CO, USA",
+      "description": "Invited talk"
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
+      "name": "Vibrational spectroscopy under an accessible computational microscope",
+      "event": "VISPEC Conference 2026",
+      "date": "2026-02-06",
+      "location": "Pavia, Italy",
+      "description": "Invited talk"
     },
     {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
+      "name": "First-principles metal electrowinning phase diagrams",
+      "event": "\"Humans on Mars\" Meeting",
+      "date": "2025-11-01",
+      "location": "Bremen, Germany",
+      "description": "Poster"
     },
     {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "Boosting first-principles thermodynamics with efficient on-the-fly machine-learning interatomic potentials",
+      "event": "Psi-k Conference 2025",
+      "date": "2025-08-01",
+      "location": "Lausanne, Switzerland",
+      "description": "Poster"
+    },
+    {
+      "name": "Hubbard corrections from first-principles made easy via automated and reproducible workflows",
+      "event": "APS March Meeting 2025",
+      "date": "2025-03-17",
+      "location": "Anaheim, CA, USA",
+      "description": "Contributed talk"
+    },
+    {
+      "name": "On the turnkey prediction of infrared, Raman and phonons from first-principles",
+      "event": "African MRS Conference 2024",
+      "date": "2024-12-01",
+      "location": "Kigali, Rwanda",
+      "description": "Invited talk"
+    },
+    {
+      "name": "Automated, turnkey infrared and Raman spectra from first-principles",
+      "event": "ICORS Conference 2024",
+      "date": "2024-07-01",
+      "location": "Rome, Italy",
+      "description": "Contributed talk"
+    },
+    {
+      "name": "All-functionals infrared and Raman spectroscopies, and their applications to materials design",
+      "event": "APS March Meeting 2024",
+      "date": "2024-03-01",
+      "location": "Minneapolis, MN, USA",
+      "description": "Contributed talk"
+    },
+    {
+      "name": "Automated all-functionals infrared and Raman spectra",
+      "event": "MARVEL Retreat",
+      "date": "2024-01-01",
+      "location": "Grindelwald, Switzerland",
+      "description": "Talk"
+    },
+    {
+      "name": "Automating infrared and Raman spectra for complex materials",
+      "event": "Sorbonne University",
+      "date": "2023-04-01",
+      "location": "Paris, France",
+      "description": "Invited seminar"
+    },
+    {
+      "name": "Automated all-functionals IR and Raman spectra",
+      "event": "MARVEL Retreat",
+      "date": "2023-03-01",
+      "location": "Lausanne, Switzerland",
+      "description": "Poster"
+    },
+    {
+      "name": "An all-functionals automatic workflow for IR and Raman spectra",
+      "event": "DPG Spring Meeting",
+      "date": "2022-09-01",
+      "location": "Regensburg, Germany",
+      "description": "Contributed talk"
+    },
+    {
+      "name": "An all-functionals automatic workflow for IR and Raman spectra",
+      "event": "Psi-k Conference 2022",
+      "date": "2022-08-01",
+      "location": "Lausanne, Switzerland",
+      "description": "Poster"
+    },
+    {
+      "name": "From structure to Raman: an all-functionals DFT automatic workflow",
+      "event": "NCCR Catalysis Meeting",
+      "date": "2022-07-02",
+      "location": "Lausanne, Switzerland (virtual)",
+      "description": "Talk"
+    },
+    {
+      "name": "Automated all-functionals Raman workflow and its application to Martian regolith",
+      "event": "Conference on Computational Physics (CCP2022)",
+      "date": "2022-07-01",
+      "location": "Austin, TX, USA (virtual)",
+      "description": "Contributed talk"
+    },
+    {
+      "name": "An all-functionals DFT automatic workflow for IR and Raman spectra",
+      "event": "Hike & Science Workshop",
+      "date": "2022-06-01",
+      "location": "Gosau, Austria",
+      "description": "Contributed talk"
+    },
+    {
+      "name": "Mars regolith characterization from first-principles",
+      "event": "\"Humans on Mars\" Meeting",
+      "date": "2021-07-01",
+      "location": "Bremen, Germany",
+      "description": "Poster"
     }
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "course": "Machine learning in computational sciences",
+      "institution": "University of Bremen",
+      "date": "2024-12-01",
+      "role": "Guest lecture, M.Sc. course",
+      "description": "Bremen, Germany"
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "course": "M.Sc. thesis co-supervision - Gabriel Joalland",
+      "institution": "EPFL",
+      "date": "2024-03-01",
+      "role": "Master thesis co-supervision",
+      "description": "Lausanne, Switzerland"
+    },
+    {
+      "course": "Ph.D. thesis co-supervision - Virginie de Mestral",
+      "institution": "ETH Zurich",
+      "date": "2022-01-01",
+      "role": "Ph.D. thesis co-supervision",
+      "description": "Zurich, Switzerland"
+    },
+    {
+      "course": "Solid state physics laboratory",
+      "institution": "University of Turin",
+      "date": "2020-03-01",
+      "role": "Teaching assistant, B.Sc. course",
+      "description": "Turin, Italy"
+    },
+    {
+      "course": "Calculus III",
+      "institution": "University of Turin",
+      "date": "2019-10-01",
+      "role": "Teaching assistant, B.Sc. course",
+      "description": "Turin, Italy"
     }
   ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "portfolio": []
 }

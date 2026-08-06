@@ -1,9 +1,11 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks and posters"
 permalink: /talks/
 author_profile: true
 ---
+
+{% include base_path %}
 
 {% if site.talkmap_link == true %}
 
@@ -11,6 +13,18 @@ author_profile: true
 
 {% endif %}
 
+<h2>Talks</h2><hr />
 {% for post in site.talks reversed %}
+  {% if post.type == 'Poster' %}
+    {% continue %}
+  {% endif %}
+  {% include archive-single-talk.html %}
+{% endfor %}
+
+<h2>Posters</h2><hr />
+{% for post in site.talks reversed %}
+  {% if post.type != 'Poster' %}
+    {% continue %}
+  {% endif %}
   {% include archive-single-talk.html %}
 {% endfor %}
